@@ -360,93 +360,18 @@ The project contains visual material documenting the complete methodology and ex
 
 ---
 
-## Repository Structure
-
-The original project folder contains the following material:
-
-```text
-Final Major Project/
-|
-+-- Code/
-|   +-- project work code.ipynb
-|
-+-- Images/
-|   +-- Figure 1 Number of patients receiving treatments...
-|   +-- Figure 2 Hospitalizations for schizophrenia...
-|   +-- Figure 3 Diagram of eight brain regions...
-|   +-- Figure 4 System workflow...
-|   +-- Figure 5 Axial, Sagittal, Coronal views...
-|   +-- Figure 6 Subcortical region...
-|   +-- Figure 7 Images of brain at different time intervals...
-|   +-- Figure 8 Preprocessing pipeline...
-|   +-- Figure 9 VGG-19 Architecture...
-|   +-- Figure 10 Proposed deep neural network...
-|   +-- Figure 11 Model summary...
-|   +-- Figure 12 Transfer learning training process...
-|   +-- Figure 13 ROC and loss curve for VGG16...
-|   +-- Figure 14 ROC and loss curve for ResNet101...
-|   +-- Figure 15 ROC and loss curve for EfficientNetB0...
-|   +-- Figure 16 ROC and loss curve for extended VGG19...
-|   +-- Figure 17 Comparison of accuracy...
-|   +-- Figure 18 Comparison of Precision...
-|   +-- Figure 19 Comparison of Recall...
-|   +-- Figure 20 Comparison of F1-score...
-|
-+-- Project Paper.docx
-+-- Project Paper.pdf
-+-- Project Report.docx
-+-- Project Report.pdf
-```
-
-For the GitHub version, the project can be organized more cleanly as:
-
-```text
-schizophrenia-detection-brain-mri/
-|
-+-- README.md
-|
-+-- notebook/
-|   +-- project_work_code.ipynb
-|
-+-- results/
-|   +-- preprocessing_pipeline.png
-|   +-- system_workflow.png
-|   +-- vgg19_architecture.png
-|   +-- proposed_vgg19_model.png
-|   +-- model_summary.png
-|   +-- transfer_learning_training.png
-|   +-- vgg16_roc_loss.png
-|   +-- resnet101_roc_loss.png
-|   +-- efficientnetb0_roc_loss.png
-|   +-- vgg19_roc_loss.png
-|   +-- accuracy_comparison.png
-|   +-- precision_comparison.png
-|   +-- recall_comparison.png
-|   +-- f1_comparison.png
-|
-+-- report/
-|   +-- project_report.pdf
-|
-+-- requirements.txt
-```
-
-The original Word documents are not necessary for the GitHub repository if the PDF report is included.
-
-The original MRI dataset should not be uploaded.
-
----
-
 ## Implementation
 
 The main implementation is provided in:
 
 ```text
-notebook/project_work_code.ipynb
+notebook/schizophrenia_detection.ipynb
 ```
 
 The notebook currently uses the following main libraries:
 
-```python
+```
+python
 tensorflow
 keras
 numpy
