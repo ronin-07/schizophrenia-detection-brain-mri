@@ -565,34 +565,6 @@ https://doi.org/10.1007/978-3-031-54547-4_6
 
 ---
 
-## Project Report
-
-The complete project documentation includes:
-
-- Introduction and motivation
-- Literature review
-- Dataset analysis
-- MRI preprocessing
-- Axial-view analysis
-- Transfer-learning methodology
-- VGG19 architecture
-- Proposed extended VGG19 model
-- Training methodology
-- Hyperparameter experiments
-- Performance evaluation
-- Comparison with other CNN architectures
-- Comparison with existing research
-- Results and discussion
-- Future work
-
-The detailed project report can be included in the repository under:
-
-```text
-report/project_report.pdf
-```
-
----
-
 ## Limitations
 
 The project has several limitations:
